@@ -9,22 +9,15 @@
 /* Begin PBXBuildFile section */
 		023E524221291A5A00213696 /* DJIWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0282DA8021291A2A00D8F1E0 /* DJIWidget.framework */; };
 		023E524321291A6700213696 /* DJIWidget.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0282DA8021291A2A00D8F1E0 /* DJIWidget.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A402788320AD473E0072809B /* FlightHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402788220AD473E0072809B /* FlightHubViewController.swift */; };
+		761FE6A7745B5BF63F1C9084 /* libPods-DJISDKSwiftDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35702EDA2BFBC311B4EA2D03 /* libPods-DJISDKSwiftDemo.a */; };
+		8F79DA6C2138642E00800117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79DA6B2138642E00800117 /* ViewController.swift */; };
 		A4698547212E9091001A1F08 /* FFmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4698546212E9091001A1F08 /* FFmpeg.framework */; };
 		A4698548212E9091001A1F08 /* FFmpeg.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4698546212E9091001A1F08 /* FFmpeg.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A47868D7209AC6DA00DBC666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47868C5209AC6DA00DBC666 /* AppDelegate.swift */; };
 		A47868D8209AC6DA00DBC666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47868C6209AC6DA00DBC666 /* Assets.xcassets */; };
 		A47868D9209AC6DA00DBC666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47868C7209AC6DA00DBC666 /* LaunchScreen.storyboard */; };
 		A47868DA209AC6DA00DBC666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47868C9209AC6DA00DBC666 /* Main.storyboard */; };
-		A47868DB209AC6DA00DBC666 /* BluetoothConnectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47868CB209AC6DA00DBC666 /* BluetoothConnectorViewController.swift */; };
 		A47868DC209AC6DA00DBC666 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A47868CC209AC6DA00DBC666 /* Info.plist */; };
-		A47868DD209AC6DA00DBC666 /* KeyedInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47868CE209AC6DA00DBC666 /* KeyedInterfaceViewController.swift */; };
-		A47868DE209AC6DA00DBC666 /* TimelineElementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47868D0209AC6DA00DBC666 /* TimelineElementCollectionViewCell.swift */; };
-		A47868DF209AC6DA00DBC666 /* TimelineMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47868D1209AC6DA00DBC666 /* TimelineMissionViewController.swift */; };
-		A47868E0209AC6DA00DBC666 /* ProductCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47868D3209AC6DA00DBC666 /* ProductCommunicationManager.swift */; };
-		A47868E1209AC6DA00DBC666 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47868D4209AC6DA00DBC666 /* StartupViewController.swift */; };
-		A47868E2209AC6DA00DBC666 /* DJIImageAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47868D6209AC6DA00DBC666 /* DJIImageAnnotation.swift */; };
-		B06EA971D6515087DA6C15DE /* libPods-DJISDKSwiftDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6806BA82A93F6159B12D3F /* libPods-DJISDKSwiftDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,25 +46,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01FEF4543333DD2E34BDA196 /* Pods-DJISDKSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISDKSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJISDKSwiftDemo/Pods-DJISDKSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		0282DA7B21291A2A00D8F1E0 /* DJIWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DJIWidget.xcodeproj; path = ../DJIWidget/DJIWidget.xcodeproj; sourceTree = "<group>"; };
-		128ABACC526C7880A0AB3F06 /* Pods-DJISDKSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISDKSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJISDKSwiftDemo/Pods-DJISDKSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
-		4B0C6B02B8D1383630F1B67E /* Pods-DJISDKSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISDKSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJISDKSwiftDemo/Pods-DJISDKSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		35702EDA2BFBC311B4EA2D03 /* libPods-DJISDKSwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJISDKSwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		732A7A3F73F66CAD280116FA /* Pods-DJISDKSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISDKSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJISDKSwiftDemo/Pods-DJISDKSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		86985CC91E834EC200577EC7 /* DJISDKSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJISDKSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A402788220AD473E0072809B /* FlightHubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightHubViewController.swift; sourceTree = "<group>"; };
+		8F79DA6B2138642E00800117 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4698546212E9091001A1F08 /* FFmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FFmpeg.framework; path = ../DJIWidget/FFmpeg/FFmpeg.framework; sourceTree = "<group>"; };
 		A47868C5209AC6DA00DBC666 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A47868C6209AC6DA00DBC666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47868C8209AC6DA00DBC666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A47868CA209AC6DA00DBC666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A47868CB209AC6DA00DBC666 /* BluetoothConnectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothConnectorViewController.swift; sourceTree = "<group>"; };
 		A47868CC209AC6DA00DBC666 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A47868CE209AC6DA00DBC666 /* KeyedInterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyedInterfaceViewController.swift; sourceTree = "<group>"; };
-		A47868D0209AC6DA00DBC666 /* TimelineElementCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineElementCollectionViewCell.swift; sourceTree = "<group>"; };
-		A47868D1209AC6DA00DBC666 /* TimelineMissionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineMissionViewController.swift; sourceTree = "<group>"; };
-		A47868D3209AC6DA00DBC666 /* ProductCommunicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCommunicationManager.swift; sourceTree = "<group>"; };
-		A47868D4209AC6DA00DBC666 /* StartupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
-		A47868D6209AC6DA00DBC666 /* DJIImageAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJIImageAnnotation.swift; sourceTree = "<group>"; };
-		BA6806BA82A93F6159B12D3F /* libPods-DJISDKSwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJISDKSwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +66,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				023E524221291A5A00213696 /* DJIWidget.framework in Frameworks */,
-				B06EA971D6515087DA6C15DE /* libPods-DJISDKSwiftDemo.a in Frameworks */,
 				A4698547212E9091001A1F08 /* FFmpeg.framework in Frameworks */,
+				761FE6A7745B5BF63F1C9084 /* libPods-DJISDKSwiftDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +87,7 @@
 			children = (
 				A4698546212E9091001A1F08 /* FFmpeg.framework */,
 				0282DA7B21291A2A00D8F1E0 /* DJIWidget.xcodeproj */,
-				BA6806BA82A93F6159B12D3F /* libPods-DJISDKSwiftDemo.a */,
+				35702EDA2BFBC311B4EA2D03 /* libPods-DJISDKSwiftDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,8 +97,8 @@
 			children = (
 				A47868C4209AC6DA00DBC666 /* DJISDKSwiftDemo */,
 				86985CCA1E834EC200577EC7 /* Products */,
-				C0C7419B2667BCEE0BB6C689 /* Pods */,
 				0B6F263FBC093B7B6FB6EF51 /* Frameworks */,
+				CC7D9749F985FD4A39F03D44 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,14 +110,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A402788120AD473E0072809B /* FlightHub */ = {
-			isa = PBXGroup;
-			children = (
-				A402788220AD473E0072809B /* FlightHubViewController.swift */,
-			);
-			path = FlightHub;
-			sourceTree = "<group>";
-		};
 		A47868C4209AC6DA00DBC666 /* DJISDKSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,56 +117,17 @@
 				A47868C7209AC6DA00DBC666 /* LaunchScreen.storyboard */,
 				A47868C9209AC6DA00DBC666 /* Main.storyboard */,
 				A47868C5209AC6DA00DBC666 /* AppDelegate.swift */,
-				A47868CB209AC6DA00DBC666 /* BluetoothConnectorViewController.swift */,
-				A47868D4209AC6DA00DBC666 /* StartupViewController.swift */,
+				8F79DA6B2138642E00800117 /* ViewController.swift */,
 				A47868CC209AC6DA00DBC666 /* Info.plist */,
-				A402788120AD473E0072809B /* FlightHub */,
-				A47868CD209AC6DA00DBC666 /* KeyedInterfaces */,
-				A47868CF209AC6DA00DBC666 /* Missions */,
-				A47868D2209AC6DA00DBC666 /* Services */,
-				A47868D5209AC6DA00DBC666 /* UIObjects */,
 			);
 			path = DJISDKSwiftDemo;
 			sourceTree = "<group>";
 		};
-		A47868CD209AC6DA00DBC666 /* KeyedInterfaces */ = {
+		CC7D9749F985FD4A39F03D44 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A47868CE209AC6DA00DBC666 /* KeyedInterfaceViewController.swift */,
-			);
-			path = KeyedInterfaces;
-			sourceTree = "<group>";
-		};
-		A47868CF209AC6DA00DBC666 /* Missions */ = {
-			isa = PBXGroup;
-			children = (
-				A47868D0209AC6DA00DBC666 /* TimelineElementCollectionViewCell.swift */,
-				A47868D1209AC6DA00DBC666 /* TimelineMissionViewController.swift */,
-			);
-			path = Missions;
-			sourceTree = "<group>";
-		};
-		A47868D2209AC6DA00DBC666 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				A47868D3209AC6DA00DBC666 /* ProductCommunicationManager.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		A47868D5209AC6DA00DBC666 /* UIObjects */ = {
-			isa = PBXGroup;
-			children = (
-				A47868D6209AC6DA00DBC666 /* DJIImageAnnotation.swift */,
-			);
-			path = UIObjects;
-			sourceTree = "<group>";
-		};
-		C0C7419B2667BCEE0BB6C689 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4B0C6B02B8D1383630F1B67E /* Pods-DJISDKSwiftDemo.debug.xcconfig */,
-				128ABACC526C7880A0AB3F06 /* Pods-DJISDKSwiftDemo.release.xcconfig */,
+				732A7A3F73F66CAD280116FA /* Pods-DJISDKSwiftDemo.debug.xcconfig */,
+				01FEF4543333DD2E34BDA196 /* Pods-DJISDKSwiftDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -200,12 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86985CDD1E834EC200577EC7 /* Build configuration list for PBXNativeTarget "DJISDKSwiftDemo" */;
 			buildPhases = (
-				A23089ACBCAB63BE42DAD2F1 /* [CP] Check Pods Manifest.lock */,
+				A79CEC431EDA64E2E2E2240E /* [CP] Check Pods Manifest.lock */,
 				86985CC51E834EC200577EC7 /* Sources */,
 				86985CC61E834EC200577EC7 /* Frameworks */,
 				86985CC71E834EC200577EC7 /* Resources */,
 				86985DA41E8356C600577EC7 /* Embed Frameworks */,
-				8A68B323F021A127CDC7173C /* [CP] Embed Pods Frameworks */,
+				FEFBE83CF9ACD2D368988C3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,7 +167,7 @@
 				TargetAttributes = {
 					86985CC81E834EC200577EC7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 7UL3LRJL93;
+						DevelopmentTeam = 9298L72H97;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -282,25 +221,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8A68B323F021A127CDC7173C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DJISDKSwiftDemo/Pods-DJISDKSwiftDemo-frameworks.sh",
-				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJISDKSwiftDemo/Pods-DJISDKSwiftDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A23089ACBCAB63BE42DAD2F1 /* [CP] Check Pods Manifest.lock */ = {
+		A79CEC431EDA64E2E2E2240E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,6 +239,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FEFBE83CF9ACD2D368988C3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DJISDKSwiftDemo/Pods-DJISDKSwiftDemo-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJISDKSwiftDemo/Pods-DJISDKSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -325,15 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A47868E2209AC6DA00DBC666 /* DJIImageAnnotation.swift in Sources */,
-				A47868E0209AC6DA00DBC666 /* ProductCommunicationManager.swift in Sources */,
-				A402788320AD473E0072809B /* FlightHubViewController.swift in Sources */,
+				8F79DA6C2138642E00800117 /* ViewController.swift in Sources */,
 				A47868D7209AC6DA00DBC666 /* AppDelegate.swift in Sources */,
-				A47868E1209AC6DA00DBC666 /* StartupViewController.swift in Sources */,
-				A47868DB209AC6DA00DBC666 /* BluetoothConnectorViewController.swift in Sources */,
-				A47868DE209AC6DA00DBC666 /* TimelineElementCollectionViewCell.swift in Sources */,
-				A47868DD209AC6DA00DBC666 /* KeyedInterfaceViewController.swift in Sources */,
-				A47868DF209AC6DA00DBC666 /* TimelineMissionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,11 +390,11 @@
 		};
 		86985CDE1E834EC200577EC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B0C6B02B8D1383630F1B67E /* Pods-DJISDKSwiftDemo.debug.xcconfig */;
+			baseConfigurationReference = 732A7A3F73F66CAD280116FA /* Pods-DJISDKSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				DEVELOPMENT_TEAM = 7UL3LRJL93;
+				DEVELOPMENT_TEAM = 9298L72H97;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,7 +406,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dji.swiftSampleDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indro.dataCommunication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -482,11 +414,11 @@
 		};
 		86985CDF1E834EC200577EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 128ABACC526C7880A0AB3F06 /* Pods-DJISDKSwiftDemo.release.xcconfig */;
+			baseConfigurationReference = 01FEF4543333DD2E34BDA196 /* Pods-DJISDKSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				DEVELOPMENT_TEAM = 7UL3LRJL93;
+				DEVELOPMENT_TEAM = 9298L72H97;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,7 +430,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dji.swiftSampleDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indro.dataCommunication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

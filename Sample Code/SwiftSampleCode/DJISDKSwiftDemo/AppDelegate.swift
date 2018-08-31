@@ -1,25 +1,25 @@
 //
 //  AppDelegate.swift
-//  SDK Swift Sample
+//  indroDataCommunication
 //
-//  Created by Arnaud Thiercelin on 3/22/17.
-//  Copyright © 2017 DJI. All rights reserved.
+//  Created by Benjamin Ursel on 2018-07-27.
+//  Copyright © 2018 Indro Robotics. All rights reserved.
 //
+
+//This application is a simple app to test and troubleshoot issues with
+// --- func onboardSDKDevice(_ osdkDevice: DJIOnboardSDKDevice, didSendDataToMobile data: Data) ---
 
 import UIKit
+import DJISDK
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    var productCommunicationManager = ProductCommunicationManager()
-    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-
-        self.productCommunicationManager.registerWithSDK()
         return true
     }
 
@@ -44,6 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+
 
 }
 
